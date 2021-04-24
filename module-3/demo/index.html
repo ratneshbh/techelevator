@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST</title>
+    <style>
+        span{
+            display: inline;
+        }
+        div{
+            display: inline;
+        }
+        .div1{
+            background-color: aquamarine;
+        }
+        #chosenDiv{
+            background-color: blueviolet;
+        }
+        div > span{
+            background-color: brown;
+        }
+
+        span {
+            background-color: orange;
+        }
+        span > span.underline{
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>DIVS</h1>
+    <div class="div1">1</div>
+    <div id="chosenDiv">2</div>
+    <div class="div1">3</div>
+
+    <h1>Spans</h1>
+    <div>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+    </div>
+    <span>out side of 
+        <span class="underline">div</span>
+    </span>
+</body>
+</html>

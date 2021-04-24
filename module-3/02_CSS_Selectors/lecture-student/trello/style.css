@@ -1,0 +1,19 @@
+/* Apply this style to the HTML tag */
+html {
+    height: 100%;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    /* Force Horizontal Scrollbar */
+    white-space: nowrap;
+    font-family: 'Raleway', sans-serif;
+    background-image: linear-gradient(to bottom, #858C90, #BBB);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}

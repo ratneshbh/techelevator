@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make A Reservation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bits &amp; Bytes</h1>
+        <p>Welcome to the internet's best restaurant</p>
+    </header>
+    <main>
+        <a href="index.html">View Menu</a>
+        <h2>Make a reservation</h2>
+        <form action="/api/example" method="GET">
+            <label for="name">Name:</label>
+            <input id="name" type="text">
+            <br>
+            <label for="numberOfGuests">Number of guest:</label>
+            <input id="numberOfGuests" type="number" number="numberOfGuests">
+            <br>
+            <label for="reservationDate">Date</label>
+            <input id="reservationDate" type="date" name="reservationDate">
+            <br>
+            <label for="reservationTime">Time:</label>
+            <input id="reservationTime" type="time" name="reservationTime">
+            <br>
+            <label for="special">Special Occasion:</label>
+            <input id="special" type="checkbox" name="special">
+            <br>
+            <input type="submit" value="Submit">
+
+        </form>
+
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </table>
+
+    </main>
+</body>
+</html>

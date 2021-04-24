@@ -1,0 +1,7 @@
+div span {
+    background-color: blanchedalmond;
+}
+
+div > span {
+    background-color: chartreuse;
+}

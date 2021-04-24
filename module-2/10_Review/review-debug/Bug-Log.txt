@@ -1,0 +1,11 @@
+QA is unable to run the app
+
+User states that the app cannot connect to database. DBA confirms it is running
+
+User states that the app is stuck in a loop for some prompts
+
+User states that getting the country by continent is not filtering correctly
+
+User states they are not able to add a city to the database
+
+User states that they are unable to remove a language from the database

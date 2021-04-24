@@ -1,0 +1,93 @@
+/* Apply this style to the HTML tag */
+html {
+    height: 100%;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    /* Force Horizontal Scrollbar */
+    white-space: nowrap;
+    font-family: 'Raleway', sans-serif;
+    background-image: linear-gradient(to bottom, #858C90, #BBB);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
+
+header > h1,
+header > p{
+    display: inline-block;
+    color:white;
+    padding: 0 20px 0 2px;
+    border-right: 1px solid white;
+    height: 20px;
+}
+
+header > h1{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+div.trello-list h2{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.cards{
+   margin: 0; 
+   padding: 0;
+
+}
+
+.trello-list{
+    background-color: lightgrey;
+    width: 300px;
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cards .card {
+    list-style:none;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    white-space: normal;
+}
+
+.label{
+    display: inline-block;
+    font-size: .9rem;
+    height: 10px;
+    width: 35px;
+    border-radius: 25px;
+}
+
+.trello-list a{
+    display: block;
+    text-decoration: none;
+    color:black;
+    padding:7px 0 5px 8px;
+
+}
+
+.label.general {
+    background-color: orange;
+}
+
+.label.pathway {
+    background-color: red;
+}
+
+.label.individual {
+    background-color: forestgreen;
+}
+
+.label.pair {
+    background-color: blue;
+}

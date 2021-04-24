@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+
+let data = 'no data';
+
+function loadData(){
+    setTimeout(
+        ()=> {
+            data = 'data loaded';
+        }
+        ,2000);
+
+}
+
+loadData();
+
+const loadData2 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    data = 'data loaded'; 
+    resolve('done');
+  }, 2000);
+});
+
+loadData2
+.then(
+    (resp) =>
+    {
+        console.log(resp, data);
+        return resp + ' got this from the first then';
+    }
+
+)
+.then(
+    (resp2) =>{
+        console.log(resp2);
+    }
+)
+.catch(    
+    (resp) =>
+    {
+        console.log('go boom');
+    });
+
+/*
+setTimeout(
+ ()=>{
+    console.log(data);
+ }
+ ,2001
+);
+*/
+
+
+
+</script>
+
+</head>
+<body>
+    check the console
+</body>
+</html>
