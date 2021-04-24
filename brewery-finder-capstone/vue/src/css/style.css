@@ -1,0 +1,64 @@
+:root {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Color Classes*/
+
+.frosty-porter {
+    background-color: #30161166;
+    -webkit-backdrop-filter: saturate(200%) blur(20px);
+    backdrop-filter: saturate(200%) blur(20px);
+}
+
+.frosty-porterdk {
+    background-color: #30161199;
+    -webkit-backdrop-filter: saturate(200%) blur(20px);
+    backdrop-filter: saturate(200%) blur(20px);
+}
+
+.frosty-foam {
+    background-color: #DDC08F66;
+    -webkit-backdrop-filter: saturate(200%) blur(20px);
+    backdrop-filter: saturate(200%) blur(20px);
+}
+
+.bg-porter, .bg-porter-h:hover {
+    background-color: #301611;
+}
+
+.bg-belgian, .bg-belgian-h:hover {
+    background-color: #68170B;
+}
+
+.bg-fruit, .bg-fruit-h:hover {
+    background-color: #A83518;
+}
+
+.bg-wheat, .bg-wheat-h:hover {
+    background-color: #E5932B;
+}
+
+.bg-foam, .bg-foam-h:hover {
+    background-color: #DDC08F;
+}
+
+.text-porter, .text-porter-h:hover {
+    color: #301611;
+}
+
+.text-belgian, .text-belgian-h:hover {
+    color: #68170B;
+}
+
+.text-fruit, .text-fruit-h:hover {
+    color: #A83518;
+}
+
+.text-wheat, .text-wheat-h:hover {
+    color: #E5932B;
+}
+
+.text-foam, .text-foam-h:hover {
+    color: #DDC08F;
+}
